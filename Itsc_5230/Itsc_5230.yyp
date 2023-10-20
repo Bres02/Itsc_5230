@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -34,8 +34,13 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
-    {"id":{"name":"Amoeba","path":"objects/Amoeba/Amoeba.yy",},},
+    {"id":{"name":"obj_powerupFrog","path":"objects/obj_powerupFrog/obj_powerupFrog.yy",},},
+    {"id":{"name":"spr_frog","path":"sprites/spr_frog/spr_frog.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_frog","path":"objects/obj_frog/obj_frog.yy",},},
+    {"id":{"name":"spr_amoeba","path":"sprites/spr_amoeba/spr_amoeba.yy",},},
+    {"id":{"name":"spr_powerupFrog","path":"sprites/spr_powerupFrog/spr_powerupFrog.yy",},},
+    {"id":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

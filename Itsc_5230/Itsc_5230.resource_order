@@ -16,5 +16,11 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_powerupFrog","order":1,"path":"objects/obj_powerupFrog/obj_powerupFrog.yy",},
+    {"name":"spr_frog","order":2,"path":"sprites/spr_frog/spr_frog.yy",},
+    {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_frog","order":2,"path":"objects/obj_frog/obj_frog.yy",},
+    {"name":"spr_powerupFrog","order":1,"path":"sprites/spr_powerupFrog/spr_powerupFrog.yy",},
+  ],
 }
