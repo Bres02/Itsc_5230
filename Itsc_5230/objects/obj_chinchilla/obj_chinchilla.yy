@@ -4,7 +4,9 @@
   "name": "obj_chinchilla",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"8",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

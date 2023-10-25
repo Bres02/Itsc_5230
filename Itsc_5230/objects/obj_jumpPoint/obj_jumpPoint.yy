@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_chameleon",
-  "eventList": [],
-  "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"6",},
+  "name": "obj_jumpPoint",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
+  "managed": true,
+  "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_amoeba",
-    "path": "objects/obj_amoeba/obj_amoeba.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,11 +25,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"jump_type","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "spr_chameleon",
-    "path": "sprites/spr_chameleon/spr_chameleon.yy",
+    "name": "spr_lilypad",
+    "path": "sprites/spr_lilypad/spr_lilypad.yy",
   },
   "spriteMaskId": null,
   "visible": true,
