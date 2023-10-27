@@ -14,6 +14,7 @@
     {"name":"inst_3D99DBB1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_374FC845","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_51AA2CC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7687F796","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D99DBB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_digPoint","path":"objects/obj_digPoint/obj_digPoint.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_374FC845","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_digReceive","path":"objects/obj_digReceive/obj_digReceive.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51AA2CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_powerupFrog","path":"objects/obj_powerupFrog/obj_powerupFrog.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7687F796","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"rock","path":"objects/rock/rock.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5833333,"x":1056.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5684693D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},"x":320.0,"y":448.0,},
