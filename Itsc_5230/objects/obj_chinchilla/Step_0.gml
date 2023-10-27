@@ -4,34 +4,12 @@ if can_dig && keyboard_check(ord("E")) && !dig_rest {
 	dest_x = instance_nearest(x, y, obj_digReceive).x
 	dest_y = instance_nearest(x, y, obj_digReceive).y
 	
-	//Perform jump by moving sprite to new location
+	//Perform dig
 	x = dest_x
 	y = dest_y
 	
-	/* Doesn't work, but why?
-	while (x != dest_x or y != dest_y) {
-		
-		//Horizontal movement
-		if (dest_x < x) {
-			hspeed = -4
-		} else if (dest_x > x) {
-			hspeed = 4
-		} else {
-			hspeed = 0
-		}
-		
-		//Vertical movement
-		if (dest_y < y) {
-			vspeed = -4
-		} else if (dest_y > y) {
-			vspeed = 4
-		} else {
-			vspeed = 0
-		}
-	}
-	*/
 	
-	//Make it so that player cannot immediately jump after performing a jump
+	//Make it so that player cannot immediately dig after exiting from hole
 	can_dig = false
 	dig_rest = true
 	
