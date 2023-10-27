@@ -4,11 +4,18 @@
   "name": "obj_frog",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_jumpPoint","path":"objects/obj_jumpPoint/obj_jumpPoint.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"6",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"move_y","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"move_x","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"dir","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"v_input","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"propertyId":{"name":"h_input","path":"objects/obj_amoeba/obj_amoeba.yy",},"value":"0",},
   ],
   "parent": {
     "name": "Objects",
@@ -25,15 +32,20 @@
   "physicsGroup": 1,
   "physicsKinematic": false,
   "physicsLinearDamping": 0.1,
-  "physicsObject": false,
+  "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":128.0,"y":0.0,},
+    {"x":128.0,"y":128.0,},
+    {"x":0.0,"y":128.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"can_jump","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"jump_type","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"jump_rest","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
   "spriteId": {

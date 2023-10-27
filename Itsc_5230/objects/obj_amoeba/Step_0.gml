@@ -6,8 +6,24 @@ if keyboard_check(vk_backspace) game_restart()
 
 
 //Basic Movement for all creatures
-if keyboard_check(vk_right) x += move_speed
-if keyboard_check(vk_left) x -= move_speed
-if keyboard_check(vk_down) y += move_speed
-if keyboard_check(vk_up) y -= move_speed
+h_input = keyboard_check(vk_right) - keyboard_check(vk_left)
+v_input = keyboard_check(vk_down) - keyboard_check(vk_up)
+
+if (h_input != 0 or v_input != 0) {
+	dir = point_direction(0, 0, h_input, v_input)
+	move_x = lengthdir_x(move_speed, dir)
+	move_y = lengthdir_y(move_speed, dir)
+	
+	x += move_x
+	y += move_y
+	
+	image_angle = dir
+	
+	if (dir > 90 and dir < 270) {
+		image_yscale = -1
+	} else {
+		image_yscale = 1
+	}
+}
+
 
