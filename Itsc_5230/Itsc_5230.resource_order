@@ -19,6 +19,8 @@
   "ResourceOrderSettings": [
     {"name":"obj_chinchilla","order":7,"path":"objects/obj_chinchilla/obj_chinchilla.yy",},
     {"name":"obj_jumpPoint","order":8,"path":"objects/obj_jumpPoint/obj_jumpPoint.yy",},
+    {"name":"obj_digPoint","order":10,"path":"objects/obj_digPoint/obj_digPoint.yy",},
+    {"name":"spr_digEnter","order":8,"path":"sprites/spr_digEnter/spr_digEnter.yy",},
     {"name":"spr_chinchilla","order":6,"path":"sprites/spr_chinchilla/spr_chinchilla.yy",},
     {"name":"obj_powerupFrog","order":1,"path":"objects/obj_powerupFrog/obj_powerupFrog.yy",},
     {"name":"spr_powerupChin","order":4,"path":"sprites/spr_powerupChin/spr_powerupChin.yy",},
@@ -32,6 +34,8 @@
     {"name":"spr_chameleon","order":5,"path":"sprites/spr_chameleon/spr_chameleon.yy",},
     {"name":"obj_powerupChin","order":5,"path":"objects/obj_powerupChin/obj_powerupChin.yy",},
     {"name":"spr_lilypad","order":7,"path":"sprites/spr_lilypad/spr_lilypad.yy",},
+    {"name":"spr_digExit","order":9,"path":"sprites/spr_digExit/spr_digExit.yy",},
+    {"name":"obj_digReceive","order":11,"path":"objects/obj_digReceive/obj_digReceive.yy",},
     {"name":"spr_powerupCham","order":3,"path":"sprites/spr_powerupCham/spr_powerupCham.yy",},
   ],
 }

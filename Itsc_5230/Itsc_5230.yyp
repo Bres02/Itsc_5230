@@ -36,6 +36,8 @@
   "resources": [
     {"id":{"name":"obj_chinchilla","path":"objects/obj_chinchilla/obj_chinchilla.yy",},},
     {"id":{"name":"obj_jumpPoint","path":"objects/obj_jumpPoint/obj_jumpPoint.yy",},},
+    {"id":{"name":"obj_digPoint","path":"objects/obj_digPoint/obj_digPoint.yy",},},
+    {"id":{"name":"spr_digEnter","path":"sprites/spr_digEnter/spr_digEnter.yy",},},
     {"id":{"name":"spr_chinchilla","path":"sprites/spr_chinchilla/spr_chinchilla.yy",},},
     {"id":{"name":"obj_powerupFrog","path":"objects/obj_powerupFrog/obj_powerupFrog.yy",},},
     {"id":{"name":"spr_powerupChin","path":"sprites/spr_powerupChin/spr_powerupChin.yy",},},
@@ -50,6 +52,8 @@
     {"id":{"name":"spr_chameleon","path":"sprites/spr_chameleon/spr_chameleon.yy",},},
     {"id":{"name":"obj_powerupChin","path":"objects/obj_powerupChin/obj_powerupChin.yy",},},
     {"id":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},},
+    {"id":{"name":"spr_digExit","path":"sprites/spr_digExit/spr_digExit.yy",},},
+    {"id":{"name":"obj_digReceive","path":"objects/obj_digReceive/obj_digReceive.yy",},},
     {"id":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},},
     {"id":{"name":"spr_powerupCham","path":"sprites/spr_powerupCham/spr_powerupCham.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

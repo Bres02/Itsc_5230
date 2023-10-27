@@ -1,0 +1,3 @@
+can_dig = true
+
+
