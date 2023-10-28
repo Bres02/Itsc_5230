@@ -1,5 +1,0 @@
-/// collides with rock
-
-
-
-
