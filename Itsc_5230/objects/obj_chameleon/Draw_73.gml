@@ -12,9 +12,9 @@ if instance_exists(obj_grabRock) and state == States.grabbing {
 }
 
 if (can_stealth and state != States.stealth) {
-	draw_text(32, 32, "Press Q to Stealth!")
+	draw_text(32, 64, "Press Q to Stealth!")
 }
 
 if (can_stealth and state == States.stealth) {
-	draw_text(32, 32, "Press Q to Un-Stealth!")
+	draw_text(32, 64, "Press Q to Un-Stealth!")
 }

@@ -65,6 +65,13 @@ if can_jump && keyboard_check(ord("E")) && !jump_rest {
 			image_yscale = 1
 		}
 	}
+	
+	//Controls animations
+	if (h_input != 0 or v_input != 0) {
+		sprite_index = spr_frog_running
+	} else {
+		sprite_index = spr_frog
+	}
 }
 
 

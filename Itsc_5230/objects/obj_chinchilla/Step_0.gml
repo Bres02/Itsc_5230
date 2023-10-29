@@ -43,6 +43,13 @@ if can_dig && keyboard_check(ord("E")) && !dig_rest {
 			image_yscale = 1
 		}
 	}
+	
+	//Controls animations
+	if (h_input != 0 or v_input != 0) {
+		sprite_index = spr_chinchilla_running
+	} else {
+		sprite_index = spr_chinchilla
+	}
 }
 
 
