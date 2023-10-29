@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_chinchilla","path":"objects/obj_chinchilla/obj_chinchilla.yy",},},
@@ -48,6 +48,8 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_frog","path":"objects/obj_frog/obj_frog.yy",},},
     {"id":{"name":"obj_powerupCham","path":"objects/obj_powerupCham/obj_powerupCham.yy",},},
+    {"id":{"name":"obj_grabRock","path":"objects/obj_grabRock/obj_grabRock.yy",},},
+    {"id":{"name":"spr_grab_rock","path":"sprites/spr_grab_rock/spr_grab_rock.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_jumpReceive","path":"objects/obj_jumpReceive/obj_jumpReceive.yy",},},
     {"id":{"name":"obj_chameleon","path":"objects/obj_chameleon/obj_chameleon.yy",},},

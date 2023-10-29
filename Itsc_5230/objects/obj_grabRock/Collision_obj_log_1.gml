@@ -1,0 +1,1 @@
+/// @description Enables collision with other solid objects

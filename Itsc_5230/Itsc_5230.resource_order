@@ -30,6 +30,8 @@
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_frog","order":2,"path":"objects/obj_frog/obj_frog.yy",},
     {"name":"obj_powerupCham","order":4,"path":"objects/obj_powerupCham/obj_powerupCham.yy",},
+    {"name":"obj_grabRock","order":16,"path":"objects/obj_grabRock/obj_grabRock.yy",},
+    {"name":"spr_grab_rock","order":14,"path":"sprites/spr_grab_rock/spr_grab_rock.yy",},
     {"name":"obj_rock","order":12,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"obj_jumpReceive","order":9,"path":"objects/obj_jumpReceive/obj_jumpReceive.yy",},
     {"name":"obj_chameleon","order":6,"path":"objects/obj_chameleon/obj_chameleon.yy",},
