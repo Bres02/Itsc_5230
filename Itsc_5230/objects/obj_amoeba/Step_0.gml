@@ -26,4 +26,11 @@ if (h_input != 0 or v_input != 0) {
 	}
 }
 
+//Controls animations
+if (h_input != 0 or v_input != 0) {
+	sprite_index = spr_amoeba_running
+} else {
+	sprite_index = spr_amoeba
+}
+
 

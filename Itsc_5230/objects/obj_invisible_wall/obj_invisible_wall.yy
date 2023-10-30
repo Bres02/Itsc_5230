@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "transition",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_invisible_wall",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -27,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_map",
-    "path": "sprites/spr_map/spr_map.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
