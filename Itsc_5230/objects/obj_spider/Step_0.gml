@@ -11,7 +11,17 @@ if (instance_exists(obj_amoeba)) {
 
 // If the player is detected, the spider immediately pursues at a rapid pace
 if (my_radius.detected and instance_exists(target)) {
-	direction = point_direction(x, y, target.x, target.y)
+	var dir = point_direction(x, y, target.x, target.y)
+	
+	direction = dir
+	image_angle = dir
+	
+	if (dir > 90 and dir < 270) {
+		image_yscale = -1
+	} else {
+		image_yscale = 1
+	}
+	
 	speed = 20
 } else {
 	speed = 0
