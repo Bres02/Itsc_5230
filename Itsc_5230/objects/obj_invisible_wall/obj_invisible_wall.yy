@@ -9,7 +9,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_rock",
+    "path": "objects/obj_rock/obj_rock.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -24,8 +27,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "spr_invisible_wall",
+    "path": "sprites/spr_invisible_wall/spr_invisible_wall.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

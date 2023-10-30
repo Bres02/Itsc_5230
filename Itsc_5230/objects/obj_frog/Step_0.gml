@@ -8,29 +8,6 @@ if can_jump && keyboard_check(ord("E")) && !jump_rest {
 	x = dest_x
 	y = dest_y
 	
-	/* Doesn't work, but why?
-	while (x != dest_x or y != dest_y) {
-		
-		//Horizontal movement
-		if (dest_x < x) {
-			hspeed = -4
-		} else if (dest_x > x) {
-			hspeed = 4
-		} else {
-			hspeed = 0
-		}
-		
-		//Vertical movement
-		if (dest_y < y) {
-			vspeed = -4
-		} else if (dest_y > y) {
-			vspeed = 4
-		} else {
-			vspeed = 0
-		}
-	}
-	*/
-	
 	//Make it so that player cannot immediately jump after performing a jump
 	can_jump = false
 	jump_rest = true
@@ -60,9 +37,9 @@ if can_jump && keyboard_check(ord("E")) && !jump_rest {
 		image_angle = dir
 	
 		if (dir > 90 and dir < 270) {
-			image_yscale = -1
+			image_yscale = -0.5
 		} else {
-			image_yscale = 1
+			image_yscale = 0.5
 		}
 	}
 	

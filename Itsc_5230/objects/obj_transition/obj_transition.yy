@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "transition",
+  "name": "obj_transition",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],

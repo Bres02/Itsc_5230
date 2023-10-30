@@ -38,9 +38,9 @@ if can_dig && keyboard_check(ord("E")) && !dig_rest {
 		image_angle = dir
 	
 		if (dir > 90 and dir < 270) {
-			image_yscale = -1
+			image_yscale = -0.5
 		} else {
-			image_yscale = 1
+			image_yscale = 0.5
 		}
 	}
 	

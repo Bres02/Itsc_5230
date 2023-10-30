@@ -20,9 +20,9 @@ if (h_input != 0 or v_input != 0) {
 	image_angle = dir
 	
 	if (dir > 90 and dir < 270) {
-		image_yscale = -1
+		image_yscale = -0.7
 	} else {
-		image_yscale = 1
+		image_yscale = 0.7
 	}
 }
 
