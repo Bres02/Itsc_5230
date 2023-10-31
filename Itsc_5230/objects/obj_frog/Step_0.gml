@@ -5,6 +5,7 @@ if can_jump && keyboard_check(ord("E")) && !jump_rest {
 	dest_y = instance_nearest(x, y, obj_jumpReceive).y
 	
 	//Perform jump by moving sprite to new location
+	audio_play_sound(snd_jump, 1, false)
 	x = dest_x
 	y = dest_y
 	

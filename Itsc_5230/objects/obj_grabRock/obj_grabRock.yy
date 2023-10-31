@@ -3,10 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_grabRock",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_log_1","path":"objects/obj_log_1/obj_log_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_rock_2","path":"objects/obj_rock_2/obj_rock_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_amoeba","path":"objects/obj_amoeba/obj_amoeba.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_grab_rock",
-    "path": "sprites/spr_grab_rock/spr_grab_rock.yy",
+    "name": "spr_grabRock",
+    "path": "sprites/spr_grabRock/spr_grabRock.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -11,10 +11,4 @@ if instance_exists(obj_grabRock) and state == States.grabbing {
 	draw_text(instance_nearest(x, y, obj_grabRock).x - 84, instance_nearest(x, y, obj_grabRock).y - 32, "Press E to Release!")
 }
 
-if (can_stealth and state != States.stealth) {
-	draw_text(32, 64, "Press Q to Stealth!")
-}
 
-if (can_stealth and state == States.stealth) {
-	draw_text(32, 64, "Press Q to Un-Stealth!")
-}

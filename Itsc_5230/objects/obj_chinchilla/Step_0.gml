@@ -5,6 +5,7 @@ if can_dig && keyboard_check(ord("E")) && !dig_rest {
 	dest_y = instance_nearest(x, y, obj_digReceive).y
 	
 	//Perform dig
+	audio_play_sound(snd_dig, 1, false)
 	x = dest_x
 	y = dest_y
 	
