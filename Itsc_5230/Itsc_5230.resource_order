@@ -55,6 +55,7 @@
     {"name":"spr_map","order":11,"path":"sprites/spr_map/spr_map.yy",},
     {"name":"obj_quite","order":25,"path":"objects/obj_quite/obj_quite.yy",},
     {"name":"obj_transition","order":15,"path":"objects/obj_transition/obj_transition.yy",},
+    {"name":"spr_str_bckround","order":24,"path":"sprites/spr_str_bckround/spr_str_bckround.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"obj_powerupChin","order":5,"path":"objects/obj_powerupChin/obj_powerupChin.yy",},
     {"name":"spr_lilypad","order":7,"path":"sprites/spr_lilypad/spr_lilypad.yy",},
