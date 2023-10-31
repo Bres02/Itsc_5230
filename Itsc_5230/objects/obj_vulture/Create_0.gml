@@ -4,3 +4,5 @@ target = obj_controller
 
 // Add in Path to follow here
 // path_start(..)
+
+path_start(fly_path, 4, path_action_restart, true)
