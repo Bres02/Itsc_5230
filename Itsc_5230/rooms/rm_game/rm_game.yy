@@ -90,6 +90,7 @@
     {"name":"inst_336D0991","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_513738FA","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_2DD7FFC","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_5398C3E2","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -185,6 +186,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DD7FFC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vulture","path":"objects/obj_vulture/obj_vulture.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vulture","path":"objects/obj_vulture/obj_vulture.yy",},"propertyId":{"name":"fly_path","path":"objects/obj_vulture/obj_vulture.yy",},"value":"path_buzzard_2",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":1440.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5398C3E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lives","path":"objects/obj_lives/obj_lives.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path_buzzard_4","colour":4278190335,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"pathId":{"name":"path_buzzard_4","path":"paths/path_buzzard_4/path_buzzard_4.yy",},"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path_buzzard_3","colour":4278190335,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"pathId":{"name":"path_buzzard_3","path":"paths/path_buzzard_3/path_buzzard_3.yy",},"properties":[],"userdefinedDepth":false,"visible":true,},

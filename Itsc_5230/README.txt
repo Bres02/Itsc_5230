@@ -15,4 +15,5 @@ Controls:
 - E: Object Interaction
 - Q: Turn invisible (only Chameleon can do this)
 
-The point of Amoeboid is explained in the Help screen - 
+The point of Amoeboid is to help the amoeba need to escape the volcanic eruption by getting 
+to the ocean so it can survive. 
