@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_chinchilla","path":"objects/obj_chinchilla/obj_chinchilla.yy",},},
@@ -52,7 +52,6 @@
     {"id":{"name":"spr_powerupChin","path":"sprites/spr_powerupChin/spr_powerupChin.yy",},},
     {"id":{"name":"spr_frog_running","path":"sprites/spr_frog_running/spr_frog_running.yy",},},
     {"id":{"name":"obj_log_1","path":"objects/obj_log_1/obj_log_1.yy",},},
-    {"id":{"name":"obj_lives","path":"objects/obj_lives/obj_lives.yy",},},
     {"id":{"name":"spr_spider","path":"sprites/spr_spider/spr_spider.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"obj_detect_radius_spdr","path":"objects/obj_detect_radius_spdr/obj_detect_radius_spdr.yy",},},

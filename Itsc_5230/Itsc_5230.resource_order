@@ -33,7 +33,6 @@
     {"name":"spr_powerupChin","order":4,"path":"sprites/spr_powerupChin/spr_powerupChin.yy",},
     {"name":"spr_frog_running","order":2,"path":"sprites/spr_frog_running/spr_frog_running.yy",},
     {"name":"obj_log_1","order":14,"path":"objects/obj_log_1/obj_log_1.yy",},
-    {"name":"obj_lives","order":32,"path":"objects/obj_lives/obj_lives.yy",},
     {"name":"spr_spider","order":16,"path":"sprites/spr_spider/spr_spider.yy",},
     {"name":"snd_powerup","order":5,"path":"sounds/snd_powerup/snd_powerup.yy",},
     {"name":"obj_detect_radius_spdr","order":18,"path":"objects/obj_detect_radius_spdr/obj_detect_radius_spdr.yy",},
