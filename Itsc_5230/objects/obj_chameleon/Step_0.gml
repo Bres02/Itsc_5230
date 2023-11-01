@@ -12,23 +12,22 @@ v_input = keyboard_check(vk_down) - keyboard_check(vk_up)
 
 if (h_input != 0 or v_input != 0) {
 	dir = point_direction(0, 0, h_input, v_input)
-	move_x = lengthdir_x(cur_speed, dir)
-	move_y = lengthdir_y(cur_speed, dir)
+	move_x = lengthdir_x(move_speed, dir)
+	move_y = lengthdir_y(move_speed, dir)
 	
-	x += move_x * hCancel
-	y += move_y * vCancel
+	x += move_x
+	y += move_y
 	
-	if (!dir_lock) {
-		image_angle = dir
 	
-		if (dir > 90 and dir < 270) {
-			image_yscale = -0.5
-		} else {
-			image_yscale = 0.5
-		}
+	image_angle = dir
+	
+	if (dir > 90 and dir < 270) {
+		image_yscale = -0.5
+	} else {
+		image_yscale = 0.5
 	}
-
 }
+
 
 //Controls animations
 if (h_input != 0 or v_input != 0) {
